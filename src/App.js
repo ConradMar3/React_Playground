@@ -14,7 +14,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/ConradMare890317/React_Playground.git"
+          href="https://github.com/ConradMare890317"
           target="_blank"
           rel="noopener noreferrer"
         >
