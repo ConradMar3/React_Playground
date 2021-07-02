@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import logo192 from './image/logo192.png'
 
 function App() {
   return (
@@ -11,6 +10,13 @@ function App() {
         <img src={logo} className="App-logo2" alt="logo" />
         <img src={logo} className="App-logo3" alt="logo" />
         <img src={logo} className="App-logo4" alt="logo" />
+        <img src={logo} className="App-logo5" alt="logo" />
+        <img src={logo} className="App-logo6" alt="logo" />
+        <img src={logo} className="App-logo7" alt="logo" />
+        <img src={logo} className="App-logo8" alt="logo" />
+        <img src={logo} className="App-logo3" alt="logo" />
+        <img src={logo} className="App-logo4" alt="logo" />
+        <img src={logo} className="App-logo5" alt="logo" />
         <a
           className="App-link"
           href="https://github.com/ConradMare890317"
