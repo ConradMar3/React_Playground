@@ -3,7 +3,7 @@
 }
 
 .App2-logo {
-    grid-column: 1;
+    grid-column: 1 / 2;
   grid-row: 1;
   height: 35vmin;
   pointer-events: none;

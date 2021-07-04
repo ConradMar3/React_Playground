@@ -5,84 +5,84 @@
 .App-logo {
   grid-column: 1;
   grid-row: 2;
-  height: 30vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo1 {
   grid-column: 1;
   grid-row: 2;
-  height: 30vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo2 {
     grid-column: 1;
   grid-row: 2;
-  height: 30vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo3 {
-      grid-column: 1;
-  grid-row: 3;
-  height: 10vmin;
+      grid-column: 2 / 1;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .App-logo4 {
-      grid-column: 1;
-  grid-row: 3;
-  height: 10vmin;
+      grid-column: 2 / 1;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .App-logo5 {
-  grid-column: 1;
-  grid-row: 3;
-  height: 10vmin;
+  grid-column: 2 / 1;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .App-logo6 {
   grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+  grid-row: 2;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo7 {
-  grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+  grid-column: 2;
+  grid-row: 2;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo8 {
-    grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+    grid-column: 2;
+  grid-row: 2;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-logo9 {
-      grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+      grid-column: 2 / 3;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .App-logo10 {
-      grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+      grid-column: 2 / 3;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .App-logo11 {
-  grid-column: 1;
-  grid-row: 4;
-  height: 20vmin;
+  grid-column: 2 / 3;
+  grid-row: 2;
+  height: 12vmin;
   pointer-events: none;
 }
 
@@ -122,9 +122,46 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo6 {
+    animation: App-logo-spin6 infinite 7s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo7 {
+    animation: App-logo-spin7 infinite 5s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo8 {
+    animation: App-logo-spin6 infinite 8s linear;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo9 {
+    animation: App-logo-spin9 infinite 7s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo10 {
+    animation: App-logo-spin10 infinite 10s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo11 {
+    animation: App-logo-spin11 infinite 15s linear;
+  }
+}
+
 
 .App-header {
-  background-color: #0a0917;
+  background-color: #000000;
   min-height: 100vh;
   display: grid;
   flex-direction: column;
@@ -135,7 +172,8 @@
 }
 
 .App-link {
-  color: #0099bd;
+  color: #08ff;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
@@ -184,6 +222,60 @@
 }
 
 @keyframes App-logo-spin5 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin6 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin7 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin8 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin9 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin10 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes App-logo-spin11 {
   from {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
