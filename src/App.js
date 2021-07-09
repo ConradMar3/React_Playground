@@ -18,7 +18,7 @@ function App() {
         <img src={logo2} className="App-logo9" alt="logo" />
         <img src={logo2} className="App-logo10" alt="logo" />
         <img src={logo2} className="App-logo11" alt="logo" />
-        
+        <p>Animated @keyframes</p>
         <a
           className="App-link"
           href="https://github.com/ConradMare890317"
