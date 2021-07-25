@@ -7,20 +7,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
   <body>
-     <div class="login-div">
-      <div class="row">
-        <div class="logo"><img src="juliaSet.png"></div>
-      </div>
+    
+    <div class="login-div">
       <div class="row center-align">
-        <h5>Conrad Maré</h5>
-        <h6>Full Stack Web Developer.</h6>
-      </div>
-      
+        <h4>Conrad Maré</h4>
       <div class="row">
-        <div class="col s6 left-align"><a class="waves-effect waves-light btn" href="#">Contact</a></div>
-        <div class="col s6 right-align"><a class="waves-effect waves-light btn">Portfolio</a></div>
+        <div class="logo"><img src="clover.png"></div>
+      <h5>Full-Stack Web Developer</h5>
+      </div>
       </div>
     </div>
+
     <script src="three.min.js"></script>
     <script src="postprocessing.min.js"></script>
     <script>
@@ -34,26 +31,26 @@
         camera.rotation.y = -0.12;
         camera.rotation.z = 0.20;
 
-        let ambient = new THREE.AmbientLight(0x300005);
+        let ambient = new THREE.AmbientLight(0xf05);
         scene.add(ambient);
 
-        let directionalLight = new THREE.DirectionalLight(0x0bbb19);
-        directionalLight.position.set(10,20,10);
+        let directionalLight = new THREE.DirectionalLight(0x0b9);
+        directionalLight.position.set(10,0,1);
         scene.add(directionalLight);
 
-        let orangeLight = new THREE.PointLight(0xf87600,50,450,1.7);
+        let orangeLight = new THREE.PointLight(0xf08030,50,450,1.7);
         orangeLight.position.set(100,500,300);
         scene.add(orangeLight);
-        let redLight = new THREE.PointLight(0xd31f77,50,450,1.7);
+        let redLight = new THREE.PointLight(0xd3100f77,50,450,1.7);
         redLight.position.set(100,100,100);
         scene.add(redLight);
-        let blueLight = new THREE.PointLight(0x3988ac,50,450,1.7);
-        blueLight.position.set(200,200,100);
+        let blueLight = new THREE.PointLight(0x3977700c,50,40,1.7);
+        blueLight.position.set(200,300,100);
         scene.add(blueLight);
 
         renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth,window.innerHeight);
-        scene.fog = new THREE.FogExp2(0x53555e, 0.0001);
+        scene.fog = new THREE.FogExp2(0xf07, 0.001);
         renderer.setClearColor(scene.fog.color);
         document.body.appendChild(renderer.domElement);
 
@@ -75,7 +72,7 @@
             cloud.rotation.x = 1.16;
             cloud.rotation.y = -0.12;
             cloud.rotation.z = Math.random()*2*Math.PI;
-            cloud.material.opacity = 0.85;
+            cloud.material.opacity = 0.65;
             cloudParticles.push(cloud);
             scene.add(cloud);
           }
